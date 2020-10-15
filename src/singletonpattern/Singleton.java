@@ -24,7 +24,7 @@ public class Singleton {
     
     private double balance = 8000.00; //Balance variable
     
-    //Deposit
+    //Deposit Method
     public void deposit(double amount) {
         if (amount <= 5){
             //System.err.println("You can only deposit above $5.00!");
@@ -36,7 +36,7 @@ public class Singleton {
     } //End Deposit
     
     
-    //Withdraw
+    //Withdraw Method
     public void withdraw(double num) {
         if (num <= 0 ) {
             //System.err.println("You've made an invalid withdrawal!");
